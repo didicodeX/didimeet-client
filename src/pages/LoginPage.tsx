@@ -1,3 +1,9 @@
-export default function LoginPage(){
-  return <h1>Login Page</h1>
+import AuthForm from '../features/auth/AuthForm'
+
+export default function LoginPage() {
+  return (
+    <div className="min-h-screen flex items-center justify-center p-4">
+      <AuthForm />
+    </div>
+  )
 }

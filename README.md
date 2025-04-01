@@ -70,3 +70,7 @@ Projet codé à la main par @dylane — autodidacte passionné 🔥
 [The API Contract](https://medium.com/@harutyunabgaryann/the-api-contract-bridging-the-gap-between-backend-and-frontend-development-3074effc642b)
 [Layer vs Feature Architecture](https://dev.to/smotastic/layer-vs-feature-architecture-3cko)
 [Feature-Based Architecture](https://medium.com/@harutyunabgaryann/building-scalable-react-applications-with-feature-based-architecture-41219d5549df)
+
+[Zustand - dev.to](https://dev.to/jaredm/zustand-101-a-beginners-guide-to-global-state-management-in-react-lml)
+[Zustand - medium](https://medium.com/@masoudit/the-complete-guide-to-using-zustand-as-a-state-manager-in-a-react-app-c63c88fe7729)
+[Zustand - medium[tutorial]](https://medium.com/@joris.l/tutorial-zustand-a-simple-and-powerful-state-management-solution-9ad4d06d5334)
