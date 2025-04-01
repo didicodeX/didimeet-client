@@ -8,6 +8,13 @@ export const loginSchema = z.object({
 
 export type LoginFormValues = z.infer<typeof loginSchema>
 
+export const signUpSchema = z.object({
+  name: z.string().min(2, { message: 'Minimum 2 caractères' }),
+  email: z.string().email({ message: 'Email invalide' }),
+  password: z.string().min(6, { message: 'Minimum 6 caractères' })
+})
+
+export type signUpFormValues = z.infer<typeof signUpSchema>
 
 // Ce que le backend renvoie après connexion
 export interface AuthResponse {
