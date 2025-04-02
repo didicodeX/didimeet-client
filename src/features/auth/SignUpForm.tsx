@@ -52,5 +52,5 @@ export default function SignUpForm() {
         {isSubmitting ? "Connexion..." : "Se connecter"}
       </button>
     </form>
-  )
+  );
 }

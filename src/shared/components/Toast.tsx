@@ -1,11 +1,11 @@
 // src/shared/components/Toast.tsx
-import { useToastStore } from "../store/toast.store"
-import clsx from "clsx"
+import { useToastStore } from "../store/toast.store";
+import clsx from "clsx";
 
 export function Toast() {
-  const { isVisible, message, type } = useToastStore()
+  const { isVisible, message, type } = useToastStore();
 
-  if (!isVisible) return null
+  if (!isVisible) return null;
 
   return (
     <div
@@ -20,5 +20,5 @@ export function Toast() {
     >
       {message}
     </div>
-  )
+  );
 }

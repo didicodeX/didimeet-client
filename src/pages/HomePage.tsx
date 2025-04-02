@@ -16,12 +16,12 @@ export default function HomePage() {
 
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1 className="bg-primary-500">Home Page</h1>
       <button
         onClick={() =>
           openModal(
             <div>
-              <h2 className="text-lg font-bold">Tu confirmes ?</h2>
+              <h2 className="text-lg font-bold ">Tu confirmes ?</h2>
               <p>Action irréversible.</p>
               <button
                 onClick={() => {
@@ -56,6 +56,7 @@ export default function HomePage() {
       </button>
       <br />
       <br />
+      <h1 className="">Du titre</h1>
       <button onClick={() => show("action reussie","success")}>toast</button>
     </div>
   );
