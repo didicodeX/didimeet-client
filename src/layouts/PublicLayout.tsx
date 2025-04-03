@@ -5,13 +5,13 @@ import { UIProvider } from '../shared/components/UIProvider'
 
 export default function PublicLayout() {
   return (
-    <>
+    <div className='mx-20'>
       <header>
         <Navbar/>
       </header>
       <main><Outlet /></main>
       <UIProvider/>
       <footer>Footer</footer>
-    </>
+    </div>
   )
 }
